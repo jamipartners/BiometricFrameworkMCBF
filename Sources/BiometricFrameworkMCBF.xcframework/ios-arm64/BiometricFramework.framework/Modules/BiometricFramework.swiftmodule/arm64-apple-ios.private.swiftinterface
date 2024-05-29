@@ -24,6 +24,20 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraViewPortPassportR : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraViewPortPassportInnerR : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UserInputViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
@@ -33,6 +47,13 @@ import _SwiftConcurrencyShims
 }
 extension BiometricFramework.UserInputViewController : BiometricFramework.BiometricViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) public func sendDataBack(data: Swift.String, code: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraViewPortPassport : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 public struct Result {
 }
@@ -56,6 +77,13 @@ public enum Yolov5 {
   public func loadLabels(fileInfo: BiometricFramework.FileInfo)
   public func rgbDataFromBuffer(_ buffer: CoreVideo.CVPixelBuffer, byteCount: Swift.Int, isModelQuantized: Swift.Bool) -> Foundation.Data?
   public func colorForClass(withIndex index: Swift.Int) -> UIKit.UIColor
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraViewPortPassportInner : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 public protocol BiometricViewControllerDelegate : AnyObject {
   func sendDataBack(data: Swift.String, code: Swift.Int)
