@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mdcbNZAnDORWka2W+9bbpWjqd8M=
+		EPQqZ0BdJyXapOGlt/2WRaQelwQ=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ptst7RNnfsEQo01sgC64K0rV974=
+		XSj8WH/A38wdiCGAYxWIEXYk360=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ptst7RNnfsEQo01sgC64K0rV974=
+		XSj8WH/A38wdiCGAYxWIEXYk360=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7zyGDeY2j4AEvNdnBSCsSV1fii5UiW7ZFu1CgM+syuY=
+			m6vgncnVFYc5i2Frz8z0VW826qu8lBF6DQPO2f8zzuk=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tjx0/LRNPnG8kpX+K5rY5izZpaMnjX2BLCNar15eOuc=
+			NuKSbasYrPupR3+929HUSZKLbWw9L69k/+VqXpSm3E8=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -267,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tjx0/LRNPnG8kpX+K5rY5izZpaMnjX2BLCNar15eOuc=
+			NuKSbasYrPupR3+929HUSZKLbWw9L69k/+VqXpSm3E8=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
