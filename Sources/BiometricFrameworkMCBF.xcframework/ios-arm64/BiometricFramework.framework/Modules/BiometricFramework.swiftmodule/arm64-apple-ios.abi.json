@@ -2385,6 +2385,1154 @@
         "children": [
           {
             "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "BiometricFramework.BiometricViewControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvp",
+            "mangledName": "$s18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BiometricFramework.BiometricViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricViewControllerDelegate",
+                        "printedName": "BiometricFramework.BiometricViewControllerDelegate",
+                        "usr": "s:18BiometricFramework0A22ViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvg",
+                "mangledName": "$s18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BiometricFramework.BiometricViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricViewControllerDelegate",
+                        "printedName": "BiometricFramework.BiometricViewControllerDelegate",
+                        "usr": "s:18BiometricFramework0A22ViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvs",
+                "mangledName": "$s18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvM",
+                "mangledName": "$s18BiometricFramework0A2VCC8delegateAA0A22ViewControllerDelegate_pSgvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC4nameSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC4nameSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4nameSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC4nameSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4nameSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC4nameSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4nameSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC4nameSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nic",
+            "printedName": "nic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC3nicSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC3nicSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC3nicSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC3nicSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC3nicSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC3nicSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC3nicSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC3nicSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issueDate",
+            "printedName": "issueDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC9issueDateSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC9issueDateSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9issueDateSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC9issueDateSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9issueDateSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC9issueDateSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9issueDateSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC9issueDateSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileNo",
+            "printedName": "mobileNo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC8mobileNoSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC8mobileNoSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8mobileNoSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC8mobileNoSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8mobileNoSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC8mobileNoSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8mobileNoSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC8mobileNoSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "area",
+            "printedName": "area",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC4areaSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC4areaSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4areaSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC4areaSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4areaSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC4areaSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4areaSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC4areaSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hand",
+            "printedName": "hand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC4handSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC4handSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4handSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC4handSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4handSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC4handSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4handSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC4handSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processId",
+            "printedName": "processId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC9processIdSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC9processIdSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9processIdSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC9processIdSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9processIdSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC9processIdSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9processIdSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC9processIdSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDebugMode",
+            "printedName": "isDebugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC11isDebugModeSbvp",
+            "mangledName": "$s18BiometricFramework0A2VCC11isDebugModeSbvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC11isDebugModeSbvg",
+                "mangledName": "$s18BiometricFramework0A2VCC11isDebugModeSbvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC11isDebugModeSbvs",
+                "mangledName": "$s18BiometricFramework0A2VCC11isDebugModeSbvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC11isDebugModeSbvM",
+                "mangledName": "$s18BiometricFramework0A2VCC11isDebugModeSbvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imei",
+            "printedName": "imei",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC4imeiSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC4imeiSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4imeiSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC4imeiSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4imeiSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC4imeiSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC4imeiSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC4imeiSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ip_address",
+            "printedName": "ip_address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC10ip_addressSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC10ip_addressSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC10ip_addressSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC10ip_addressSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC10ip_addressSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC10ip_addressSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC10ip_addressSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC10ip_addressSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Longitude",
+            "printedName": "Longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC9LongitudeSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC9LongitudeSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9LongitudeSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC9LongitudeSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9LongitudeSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC9LongitudeSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC9LongitudeSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC9LongitudeSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Latitude",
+            "printedName": "Latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricFramework0A2VCC8LatitudeSSvp",
+            "mangledName": "$s18BiometricFramework0A2VCC8LatitudeSSvp",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8LatitudeSSvg",
+                "mangledName": "$s18BiometricFramework0A2VCC8LatitudeSSvg",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8LatitudeSSvs",
+                "mangledName": "$s18BiometricFramework0A2VCC8LatitudeSSvs",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricFramework0A2VCC8LatitudeSSvM",
+                "mangledName": "$s18BiometricFramework0A2VCC8LatitudeSSvM",
+                "moduleName": "BiometricFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "result",
             "printedName": "result",
             "children": [
@@ -3283,6 +4431,151 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didOutput",
+            "printedName": "didOutput(pixelBuffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC9didOutput11pixelBufferySo11CVBufferRefa_tF",
+            "mangledName": "$s18BiometricFramework0A2VCC9didOutput11pixelBufferySo11CVBufferRefa_tF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionRunTimeErrorOccurred",
+            "printedName": "sessionRunTimeErrorOccurred()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC27sessionRunTimeErrorOccurredyyF",
+            "mangledName": "$s18BiometricFramework0A2VCC27sessionRunTimeErrorOccurredyyF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionWasInterrupted",
+            "printedName": "sessionWasInterrupted(canResumeManually:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC21sessionWasInterrupted17canResumeManuallyySb_tF",
+            "mangledName": "$s18BiometricFramework0A2VCC21sessionWasInterrupted17canResumeManuallyySb_tF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionInterruptionEnded",
+            "printedName": "sessionInterruptionEnded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC24sessionInterruptionEndedyyF",
+            "mangledName": "$s18BiometricFramework0A2VCC24sessionInterruptionEndedyyF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentVideoConfigurationErrorAlert",
+            "printedName": "presentVideoConfigurationErrorAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC35presentVideoConfigurationErrorAlertyyF",
+            "mangledName": "$s18BiometricFramework0A2VCC35presentVideoConfigurationErrorAlertyyF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentCameraPermissionsDeniedAlert",
+            "printedName": "presentCameraPermissionsDeniedAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC35presentCameraPermissionsDeniedAlertyyF",
+            "mangledName": "$s18BiometricFramework0A2VCC35presentCameraPermissionsDeniedAlertyyF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3303,6 +4596,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CameraFeedManagerDelegate",
+            "printedName": "CameraFeedManagerDelegate",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4218,6 +5518,179 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CameraFeedManagerDelegate",
+        "printedName": "CameraFeedManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didOutput",
+            "printedName": "didOutput(pixelBuffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP9didOutput11pixelBufferySo11CVBufferRefa_tF",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP9didOutput11pixelBufferySo11CVBufferRefa_tF",
+            "moduleName": "BiometricFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BiometricFramework.CameraFeedManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : BiometricFramework.CameraFeedManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentCameraPermissionsDeniedAlert",
+            "printedName": "presentCameraPermissionsDeniedAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP07presentC22PermissionsDeniedAlertyyF",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP07presentC22PermissionsDeniedAlertyyF",
+            "moduleName": "BiometricFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BiometricFramework.CameraFeedManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : BiometricFramework.CameraFeedManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentVideoConfigurationErrorAlert",
+            "printedName": "presentVideoConfigurationErrorAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP35presentVideoConfigurationErrorAlertyyF",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP35presentVideoConfigurationErrorAlertyyF",
+            "moduleName": "BiometricFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BiometricFramework.CameraFeedManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : BiometricFramework.CameraFeedManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionRunTimeErrorOccurred",
+            "printedName": "sessionRunTimeErrorOccurred()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP27sessionRunTimeErrorOccurredyyF",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP27sessionRunTimeErrorOccurredyyF",
+            "moduleName": "BiometricFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BiometricFramework.CameraFeedManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : BiometricFramework.CameraFeedManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionWasInterrupted",
+            "printedName": "sessionWasInterrupted(canResumeManually:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP21sessionWasInterrupted17canResumeManuallyySb_tF",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP21sessionWasInterrupted17canResumeManuallyySb_tF",
+            "moduleName": "BiometricFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BiometricFramework.CameraFeedManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : BiometricFramework.CameraFeedManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionInterruptionEnded",
+            "printedName": "sessionInterruptionEnded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP24sessionInterruptionEndedyyF",
+            "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP24sessionInterruptionEndedyyF",
+            "moduleName": "BiometricFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BiometricFramework.CameraFeedManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : BiometricFramework.CameraFeedManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18BiometricFramework25CameraFeedManagerDelegateP",
+        "mangledName": "$s18BiometricFramework25CameraFeedManagerDelegateP",
+        "moduleName": "BiometricFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CameraFeedManager",
         "printedName": "CameraFeedManager",
         "children": [
@@ -4677,6 +6150,264 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "BiometricFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PreviewView",
+        "printedName": "PreviewView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "layerClass",
+            "printedName": "layerClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricFramework@objc(cs)PreviewView(cpy)layerClass",
+            "mangledName": "$s18BiometricFramework11PreviewViewC10layerClassyXlXpvpZ",
+            "moduleName": "BiometricFramework",
+            "static": true,
+            "overriding": true,
+            "objc_name": "layerClass",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricFramework@objc(cs)PreviewView(cm)layerClass",
+                "mangledName": "$s18BiometricFramework11PreviewViewC10layerClassyXlXpvgZ",
+                "moduleName": "BiometricFramework",
+                "static": true,
+                "overriding": true,
+                "objc_name": "layerClass",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PreviewView",
+                "printedName": "BiometricFramework.PreviewView",
+                "usr": "c:@M@BiometricFramework@objc(cs)PreviewView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricFramework@objc(cs)PreviewView(im)initWithFrame:",
+            "mangledName": "$s18BiometricFramework11PreviewViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "BiometricFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BiometricFramework.PreviewView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PreviewView",
+                    "printedName": "BiometricFramework.PreviewView",
+                    "usr": "c:@M@BiometricFramework@objc(cs)PreviewView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricFramework@objc(cs)PreviewView(im)initWithCoder:",
+            "mangledName": "$s18BiometricFramework11PreviewViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "BiometricFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BiometricFramework@objc(cs)PreviewView",
+        "mangledName": "$s18BiometricFramework11PreviewViewC",
+        "moduleName": "BiometricFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -8502,1652 +10233,1652 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1175,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1199,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1195,
+      "offset": 1229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1231,
+      "offset": 1283,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1308,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1342,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1296,
+      "offset": 1375,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1315,
+      "offset": 1403,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1464,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 1378,
+      "offset": 1493,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1776,
+      "offset": 1891,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1835,
+      "offset": 1950,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1876,
+      "offset": 1991,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1915,
+      "offset": 2030,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1972,
+      "offset": 2087,
       "length": 5,
       "value": "-30.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2029,
+      "offset": 2144,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2083,
+      "offset": 2198,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2162,
+      "offset": 2277,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2231,
+      "offset": 2346,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2265,
+      "offset": 2380,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2297,
+      "offset": 2412,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2330,
+      "offset": 2445,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2406,
+      "offset": 2521,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2446,
+      "offset": 2561,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2484,
+      "offset": 2599,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2523,
+      "offset": 2638,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2611,
+      "offset": 2726,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2649,
+      "offset": 2764,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2685,
+      "offset": 2800,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2722,
+      "offset": 2837,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2756,
+      "offset": 2871,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2791,
+      "offset": 2906,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2820,
+      "offset": 2935,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2845,
+      "offset": 2960,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2870,
+      "offset": 2985,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2896,
+      "offset": 3011,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2920,
+      "offset": 3035,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2943,
+      "offset": 3058,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2966,
+      "offset": 3081,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2996,
+      "offset": 3111,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3166,
+      "offset": 3281,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3330,
+      "offset": 3445,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3699,
+      "offset": 3814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 3866,
       "length": 12,
       "value": "\"Processing\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3974,
+      "offset": 4089,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 4041,
+      "offset": 4156,
       "length": 22,
       "value": "\"Failed to load model\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4366,
+      "offset": 4481,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 4731,
+      "offset": 4846,
       "length": 40,
       "value": "\"Bundle Identifier: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 4770,
+      "offset": 4885,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 4872,
+      "offset": 4987,
       "length": 30,
       "value": "\"Bundle Identifier not found.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 4944,
+      "offset": 5059,
       "length": 13,
       "value": "\"demoversion\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 5070,
+      "offset": 5185,
       "length": 11,
       "value": "\"backArrow\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5117,
+      "offset": 5232,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5123,
+      "offset": 5238,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5134,
+      "offset": 5249,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5146,
+      "offset": 5261,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5191,
+      "offset": 5306,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 5499,
+      "offset": 5614,
       "length": 11,
       "value": "\"Cancelled\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5519,
+      "offset": 5634,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5849,
+      "offset": 5964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6044,
+      "offset": 6159,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6073,
+      "offset": 6188,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 6271,
+      "offset": 6386,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6707,
+      "offset": 6822,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 6955,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6875,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
-      "kind": "StringLiteral",
-      "offset": 6915,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6956,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
       "offset": 6990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7030,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7105,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7278,
+      "offset": 7393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 7669,
+      "offset": 7784,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7886,
+      "offset": 8001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 8283,
+      "offset": 8398,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 8604,
+      "offset": 8719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 8764,
+      "offset": 8879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8854,
+      "offset": 8969,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 9045,
+      "offset": 9160,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 9094,
+      "offset": 9209,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 10751,
+      "offset": 10866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 10909,
+      "offset": 11024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10999,
+      "offset": 11114,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11077,
+      "offset": 11192,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11190,
+      "offset": 11305,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11298,
+      "offset": 11413,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11347,
+      "offset": 11462,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13012,
+      "offset": 13127,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13165,
+      "offset": 13280,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13271,
+      "offset": 13386,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 13483,
+      "offset": 13598,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 13540,
+      "offset": 13655,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15319,
+      "offset": 15434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15486,
+      "offset": 15601,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 15588,
+      "offset": 15703,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 15674,
+      "offset": 15789,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 15754,
+      "offset": 15869,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 15816,
+      "offset": 15931,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 15878,
+      "offset": 15993,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 17407,
+      "offset": 17522,
       "length": 21,
       "value": "\"Put hand inside box\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17677,
+      "offset": 17792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 17836,
+      "offset": 17951,
       "length": 4,
       "value": "0.07"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 17964,
+      "offset": 18079,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 18065,
+      "offset": 18180,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 18193,
+      "offset": 18308,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 18203,
+      "offset": 18318,
       "length": 16,
       "value": "\"Scan left hand\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 18222,
+      "offset": 18337,
       "length": 17,
       "value": "\"Scan right hand\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 18533,
+      "offset": 18648,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 18817,
+      "offset": 18932,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 18920,
+      "offset": 19035,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 19042,
+      "offset": 19157,
       "length": 4,
       "value": "0.07"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 19197,
+      "offset": 19312,
       "length": 26,
       "value": "\"Unable to Resume Session\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 19240,
+      "offset": 19355,
       "length": 56,
       "value": "\"There was an error while attempting to resume session.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 19376,
+      "offset": 19491,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19450,
+      "offset": 19565,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19985,
+      "offset": 20128,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20124,
+      "offset": 20274,
       "length": 22,
       "value": "\"Configuration Failed\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20157,
+      "offset": 20307,
       "length": 37,
       "value": "\"Configuration of camera has failed.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20264,
+      "offset": 20414,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20396,
+      "offset": 20546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20543,
+      "offset": 20700,
       "length": 27,
       "value": "\"Camera Permissions Denied\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20581,
+      "offset": 20738,
       "length": 92,
       "value": "\"Camera permissions have been denied for this app. You can change this by going to Settings\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20756,
+      "offset": 20913,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 20846,
+      "offset": 21003,
       "length": 10,
       "value": "\"Settings\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "Dictionary",
-      "offset": 21000,
+      "offset": 21157,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 21198,
+      "offset": 21355,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 21566,
+      "offset": 21723,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "Array",
-      "offset": 22773,
+      "offset": 22930,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "Array",
-      "offset": 22953,
+      "offset": 23110,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 23355,
+      "offset": 23512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 23483,
+      "offset": 23640,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 25378,
+      "offset": 25535,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 25470,
+      "offset": 25627,
       "length": 15,
       "value": "\"Capturing now\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 25529,
+      "offset": 25686,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 25619,
+      "offset": 25776,
       "length": 21,
       "value": "\"countNumberOfFrames\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 25710,
+      "offset": 25867,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26504,
+      "offset": 26661,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26779,
+      "offset": 26936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 27018,
+      "offset": 27175,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 27093,
+      "offset": 27250,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 27189,
+      "offset": 27346,
       "length": 15,
       "value": "\"Capturing now\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 27248,
+      "offset": 27405,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 27379,
+      "offset": 27536,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28173,
+      "offset": 28330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28447,
+      "offset": 28604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 28686,
+      "offset": 28843,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 28794,
+      "offset": 28951,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 28848,
+      "offset": 29005,
       "length": 2,
       "value": "97"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 28906,
+      "offset": 29063,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 28929,
+      "offset": 29086,
       "length": 1,
       "value": "\"  (\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 28950,
+      "offset": 29107,
       "length": 1,
       "value": "\"%)\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 30820,
+      "offset": 30977,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 30869,
+      "offset": 31026,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 30967,
+      "offset": 31124,
       "length": 23,
       "value": "\"PreviewViewController\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 31567,
+      "offset": 31724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 31793,
+      "offset": 31950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 31821,
+      "offset": 31978,
       "length": 5,
       "value": "0.055"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 31946,
+      "offset": 32103,
       "length": 30,
       "value": "\"Put left hand inside the box\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 32299,
+      "offset": 32456,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 32403,
+      "offset": 32560,
       "length": 13,
       "value": "\"Please hold\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 32453,
+      "offset": 32610,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 32631,
+      "offset": 32788,
       "length": 15,
       "value": "\"Move hand far\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 32795,
+      "offset": 32952,
       "length": 17,
       "value": "\"Move hand close\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 32956,
+      "offset": 33113,
       "length": 17,
       "value": "\"Move hand right\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 33111,
+      "offset": 33268,
       "length": 16,
       "value": "\"Move hand left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 33259,
+      "offset": 33416,
       "length": 16,
       "value": "\"Move hand down\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 33413,
+      "offset": 33570,
       "length": 14,
       "value": "\"Move hand up\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 33474,
+      "offset": 33631,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 33637,
+      "offset": 33794,
       "length": 5,
       "value": "0.055"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 33721,
+      "offset": 33878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 33813,
+      "offset": 33970,
       "length": 31,
       "value": "\"Put right hand inside the box\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 34165,
+      "offset": 34322,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 34260,
+      "offset": 34417,
       "length": 13,
       "value": "\"Please hold\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 34310,
+      "offset": 34467,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 34488,
+      "offset": 34645,
       "length": 15,
       "value": "\"Move hand far\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 34652,
+      "offset": 34809,
       "length": 17,
       "value": "\"Move hand close\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 34811,
+      "offset": 34968,
       "length": 16,
       "value": "\"Move hand left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 34963,
+      "offset": 35120,
       "length": 17,
       "value": "\"Move hand right\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 35112,
+      "offset": 35269,
       "length": 16,
       "value": "\"Move hand down\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 35266,
+      "offset": 35423,
       "length": 14,
       "value": "\"Move hand up\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 35327,
+      "offset": 35484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 35461,
+      "offset": 35618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 35892,
+      "offset": 36049,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 36215,
+      "offset": 36372,
       "length": 49,
       "value": "\"There was an error focusing the device's camera\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "FloatLiteral",
-      "offset": 36569,
+      "offset": 36726,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 36660,
+      "offset": 36817,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 36910,
+      "offset": 37067,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 36926,
+      "offset": 37083,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 37348,
+      "offset": 37505,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 37405,
+      "offset": 37562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 37458,
+      "offset": 37615,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 37516,
+      "offset": 37673,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 37563,
+      "offset": 37720,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 37616,
+      "offset": 37773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 38547,
+      "offset": 38704,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 38708,
+      "offset": 38865,
       "length": 15,
       "value": "\"Network Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 38732,
+      "offset": 38889,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 39262,
+      "offset": 39419,
       "length": 15,
       "value": "\"Response Code\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 39334,
+      "offset": 39491,
       "length": 18,
       "value": "\"Response Message\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 39427,
+      "offset": 39584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 39873,
+      "offset": 40030,
       "length": 31,
       "value": "\"Service Temporary Unavailable\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 39954,
+      "offset": 40111,
       "length": 31,
       "value": "\"Service Temporary Unavailable\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 39994,
+      "offset": 40151,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 40110,
+      "offset": 40267,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 40201,
+      "offset": 40358,
       "length": 15,
       "value": "\"Network Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 40224,
+      "offset": 40381,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 40755,
+      "offset": 40912,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 40853,
+      "offset": 41010,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 40878,
+      "offset": 41035,
       "length": 14,
       "value": "\"Success full\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 40911,
+      "offset": 41068,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 40975,
+      "offset": 41132,
       "length": 43,
       "value": "\"Please retake picture due to poor quality\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41037,
+      "offset": 41194,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41062,
+      "offset": 41219,
       "length": 15,
       "value": "\"Token expired\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41141,
+      "offset": 41298,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41161,
+      "offset": 41318,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41186,
+      "offset": 41343,
       "length": 29,
       "value": "\"Right hand picture required\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 41347,
+      "offset": 41504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41408,
+      "offset": 41565,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41433,
+      "offset": 41590,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 41517,
+      "offset": 41674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41545,
+      "offset": 41702,
       "length": 28,
       "value": "\"fingerprints did not match\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41642,
+      "offset": 41799,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41667,
+      "offset": 41824,
       "length": 118,
       "value": "\"Other errors (ranging from code issues to nadra issues i.e cnic wrong , fingerprints don't exist,max tries exceeded)\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41849,
+      "offset": 42006,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41869,
+      "offset": 42026,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41894,
+      "offset": 42051,
       "length": 22,
       "value": "\"Request Fields issue\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41962,
+      "offset": 42119,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 42033,
+      "offset": 42190,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 42230,
+      "offset": 42387,
       "length": 30,
       "value": "\"Session resumed successfully\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 42309,
+      "offset": 42466,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 42355,
+      "offset": 42512,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 42657,
+      "offset": 42814,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 43098,
+      "offset": 43255,
       "length": 26,
       "value": "\"Failed to resume session\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 43231,
+      "offset": 43388,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 43491,
+      "offset": 43648,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 43651,
+      "offset": 43808,
       "length": 5,
       "value": "false"
     },
@@ -11967,189 +13698,189 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 1370,
+      "offset": 1377,
       "length": 14,
       "value": "\"sessionQueue\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1548,
+      "offset": 1555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5511,
+      "offset": 5518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 7798,
+      "offset": 7805,
       "length": 22,
       "value": "\"Camera not available\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7973,
+      "offset": 7980,
       "length": 3,
       "value": "5.5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8017,
+      "offset": 8024,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 8057,
+      "offset": 8064,
       "length": 27,
       "value": "\"Not found suitable camera\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 8238,
+      "offset": 8245,
       "length": 22,
       "value": "\"Camera not available\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8537,
+      "offset": 8544,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 8674,
+      "offset": 8681,
       "length": 58,
       "value": "\"Failed to set zoom factor: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 8731,
+      "offset": 8738,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 9331,
+      "offset": 9338,
       "length": 20,
       "value": "\"Cannot find camera\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9546,
+      "offset": 9553,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9587,
+      "offset": 9594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 9636,
+      "offset": 9643,
       "length": 34,
       "value": "\"Cannot create video device input\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 9884,
+      "offset": 9891,
       "length": 19,
       "value": "\"sampleBufferQueue\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10033,
+      "offset": 10040,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10321,
+      "offset": 10328,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10343,
+      "offset": 10350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 11819,
+      "offset": 11826,
       "length": 55,
       "value": "\"Capture session was interrupted with reason \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 11873,
+      "offset": 11880,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11907,
+      "offset": 11914,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11995,
+      "offset": 12002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12107,
+      "offset": 12114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 12526,
+      "offset": 12533,
       "length": 41,
       "value": "\"Capture session runtime error: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 12566,
+      "offset": 12573,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/CameraFeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1151,
       "length": 17,
       "value": "\"BiometricFramework.CameraFeedManager\""
     },
@@ -12387,7 +14118,7 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/Camera Feed\/PreviewView.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 876,
       "length": 45,
       "value": "\"Layer expected is of type VideoPreviewLayer\""
     },
