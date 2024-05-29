@@ -11850,183 +11850,183 @@
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
-      "kind": "StringLiteral",
-      "offset": 40943,
-      "length": 43,
-      "value": "\"Please retake picture due to poor quality\""
+      "kind": "BooleanLiteral",
+      "offset": 41073,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41005,
+      "offset": 41096,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41030,
+      "offset": 41121,
       "length": 15,
       "value": "\"Token expired\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41109,
+      "offset": 41200,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41129,
+      "offset": 41220,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41154,
+      "offset": 41245,
       "length": 29,
       "value": "\"Right hand picture required\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 41315,
+      "offset": 41406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41376,
+      "offset": 41467,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41401,
+      "offset": 41492,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 41485,
+      "offset": 41576,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41513,
+      "offset": 41604,
       "length": 28,
       "value": "\"fingerprints did not match\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41610,
+      "offset": 41701,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41635,
+      "offset": 41726,
       "length": 118,
       "value": "\"Other errors (ranging from code issues to nadra issues i.e cnic wrong , fingerprints don't exist,max tries exceeded)\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41817,
+      "offset": 41908,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 41837,
+      "offset": 41928,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41862,
+      "offset": 41953,
       "length": 22,
       "value": "\"Request Fields issue\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 41930,
+      "offset": 42021,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 42001,
+      "offset": 42092,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 42198,
+      "offset": 42289,
       "length": 30,
       "value": "\"Session resumed successfully\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 42277,
+      "offset": 42368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 42323,
+      "offset": 42414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 42625,
+      "offset": 42716,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 43066,
+      "offset": 43157,
       "length": 26,
       "value": "\"Failed to resume session\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "StringLiteral",
-      "offset": 43199,
+      "offset": 43290,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 43459,
+      "offset": 43550,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/BiometricFramework\/ObjectDetection\/ViewControllers\/BiometricVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 43619,
+      "offset": 43710,
       "length": 5,
       "value": "false"
     },
