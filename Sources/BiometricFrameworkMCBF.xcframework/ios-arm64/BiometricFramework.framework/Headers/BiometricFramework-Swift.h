@@ -446,31 +446,6 @@ SWIFT_CLASS("_TtC18BiometricFramework26CustomNavigationController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UIStepper;
-
-SWIFT_CLASS("_TtC18BiometricFramework23InferenceViewController")
-@interface InferenceViewController : BaseVC
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
-@property (nonatomic, weak) IBOutlet UIStepper * _Null_unspecified threadStepper;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified stepperValueLabel;
-- (void)viewDidLoad;
-/// Delegate the change of number of threads to View Controller and change the stepper display.
-- (IBAction)onClickThreadStepper:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSIndexPath;
-@class UITableViewCell;
-
-@interface InferenceViewController (SWIFT_EXTENSION(BiometricFramework)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
 
 SWIFT_CLASS("_TtC18BiometricFramework8InfoCell")
 @interface InfoCell : UITableViewCell
