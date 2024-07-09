@@ -101,6 +101,8 @@ public protocol BiometricViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var ip_address: Swift.String
   @_Concurrency.MainActor(unsafe) public var longitude: Swift.String
   @_Concurrency.MainActor(unsafe) public var latitude: Swift.String
+  @_Concurrency.MainActor(unsafe) public var buttonColor: Swift.String
+  @_Concurrency.MainActor(unsafe) public var buttonTextColor: Swift.String
   @_Concurrency.MainActor(unsafe) public var result: BiometricFramework.Result?
   @_Concurrency.MainActor(unsafe) public var previousInferenceTimeMs: Swift.Double
   @_Concurrency.MainActor(unsafe) public var cameraFeedManager: BiometricFramework.CameraFeedManager {
