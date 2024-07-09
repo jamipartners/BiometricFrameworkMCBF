@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BiometricFramework
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BiometricFramework
 import AVFoundation
 import Accelerate
 @_exported import BiometricFramework
@@ -100,8 +99,8 @@ public protocol BiometricViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var isDebugMode: Swift.Bool
   @_Concurrency.MainActor(unsafe) public var imei: Swift.String
   @_Concurrency.MainActor(unsafe) public var ip_address: Swift.String
-  @_Concurrency.MainActor(unsafe) public var Longitude: Swift.String
-  @_Concurrency.MainActor(unsafe) public var Latitude: Swift.String
+  @_Concurrency.MainActor(unsafe) public var longitude: Swift.String
+  @_Concurrency.MainActor(unsafe) public var latitude: Swift.String
   @_Concurrency.MainActor(unsafe) public var result: BiometricFramework.Result?
   @_Concurrency.MainActor(unsafe) public var previousInferenceTimeMs: Swift.Double
   @_Concurrency.MainActor(unsafe) public var cameraFeedManager: BiometricFramework.CameraFeedManager {
@@ -111,8 +110,6 @@ public protocol BiometricViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var modelDataHandler: BiometricFramework.ModelDataHandler?
   @_Concurrency.MainActor(unsafe) public var isCapture: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) public func printBundleIdentifier()
-  @_Concurrency.MainActor(unsafe) public func loadBackImage()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
