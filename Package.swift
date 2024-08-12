@@ -21,8 +21,16 @@ let package = Package(
     targets: [
                // Targets are the basic building blocks of a package. A target can define a module or a test suite.
                // Targets can depend on other targets in this package, and on products in packages this package depends on.
-               .binaryTarget(
-                   name: "BiometricFrameworkMCBF",
-                   path: "./Sources/BiometricFrameworkMCBF.xcframework")
+        .binaryTarget(
+                    name: "BiometricFrameworkMCBF",
+                    path: "./Sources/BiometricFrameworkMCBF.xcframework"
+                ),
+        .target(
+            name: "PrivacyInfoTarget",
+            path: "./Resources", // Point to the Resources directory
+            resources: [
+                .process("PrivacyInfo") // Include the PrivacyInfo.xcprivacy file
+            ]
+        )
            ]
 )
