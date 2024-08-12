@@ -6,31 +6,28 @@ import PackageDescription
 let package = Package(
     name: "BiometricFrameworkMCBF",
     platforms: [
-              .macOS(.v12), .iOS(.v16)
-            ],
+        .macOS(.v12), .iOS(.v16)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "BiometricFrameworkMCBF",
-            targets: ["BiometricFrameworkMCBF"]),
+            targets: ["BiometricFrameworkMCBF"]
+        ),
     ],
     dependencies: [
-           // Dependencies declare other packages that this package depends on.
-           // .package(url: /* package url */, from: "1.0.0"),
-       ],
+        // Add dependencies here if needed
+    ],
     targets: [
-               // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-               // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-                    name: "BiometricFrameworkMCBF",
-                    path: "./Sources/BiometricFrameworkMCBF.xcframework"
-                ),
+            name: "BiometricFrameworkMCBF",
+            path: "./Sources/BiometricFrameworkMCBF.xcframework"
+        ),
         .target(
-            name: "PrivacyInfoTarget",
-            path: "./Resources", // Point to the Resources directory
+            name: "BiometricFrameworkMCBFResources",
+            path: "./Resources",
             resources: [
-                .process("PrivacyInfo") // Include the PrivacyInfo.xcprivacy file
+                .process("PrivacyInfo")
             ]
         )
-           ]
+    ]
 )
