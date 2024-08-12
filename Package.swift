@@ -18,16 +18,9 @@ let package = Package(
         // Add dependencies here if needed
     ],
     targets: [
-        .binaryTarget(
-            name: "BiometricFrameworkMCBF",
-            path: "./Sources/BiometricFrameworkMCBF.xcframework"
-        ),
-        .target(
-            name: "BiometricFrameworkMCBFResources",
-            path: "./Resources",
-            resources: [
-                .process("PrivacyInfo")
-            ]
-        )
-    ]
+           .binaryTarget(
+                name: "BiometricFrameworkMCBF",
+                path: "./Sources/BiometricFrameworkMCBF.xcframework"
+            )
+        ]
 )
