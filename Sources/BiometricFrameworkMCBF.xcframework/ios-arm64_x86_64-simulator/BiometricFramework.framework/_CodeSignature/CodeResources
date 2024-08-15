@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/BiometricFramework-Swift.h</key>
 		<data>
-		J9EYRqLssNPzb0+9303VsLL/78w=
+		iHa+55gM69PPiVTQ3gwT7Zvu6Po=
 		</data>
 		<key>Headers/BiometricFramework.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DnhQqFrQDBCJ22fMDqYNt6NMb2s=
+		HcPxQtGY/qu63JnvHudvgevIatM=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8b7KTfxdos8KJFj4ckxCoN46AQI=
+		hGS/5tt8+vLhWsfBXUjBVDlUlOE=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,19 +82,19 @@
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8b7KTfxdos8KJFj4ckxCoN46AQI=
+		hGS/5tt8+vLhWsfBXUjBVDlUlOE=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f4DuNH64N2d+8+uTp/lw/L2YEb0=
+		gWydZ2dgBQWxAjbNjX3VCvLIZdg=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DnhQqFrQDBCJ22fMDqYNt6NMb2s=
+		HcPxQtGY/qu63JnvHudvgevIatM=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DOW+il+secRMjzSJPa+zNCPmt5E=
+		zOJHRvds1Qlov+gWl8R0dB4fftw=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DOW+il+secRMjzSJPa+zNCPmt5E=
+		zOJHRvds1Qlov+gWl8R0dB4fftw=
 		</data>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kMUeXLHHilPcLsOkCF87WXcLfRo=
+		pcIdS648Y14AhG1aVqL2ekp/bh4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -222,7 +222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nPsQouy2UKMC7uV0HESWfa+ECO5s32imSJMaByyXHCw=
+			1KP0HglUE2pQENKB1Wmsr632VUE5Wvx9DUNWoHEEJ7Q=
 			</data>
 		</dict>
 		<key>Headers/BiometricFramework.h</key>
@@ -236,14 +236,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			66Q9lXHlrFz9+eLUd2XGDWtU9jYqHCGQXNkuoL7hQr8=
+			37u3vxTQf0hV6uXOQQM41d+aTvHnxtIoHba2Xo2EB5k=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJO46VxH690rTIY9k5fFGf9PfEBJM76bYMuvTFX6EAA=
+			IQzYhAgvR4VciUeHyQQJdEa2X5yN4Rl14W3CUH5tteo=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -257,28 +257,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJO46VxH690rTIY9k5fFGf9PfEBJM76bYMuvTFX6EAA=
+			IQzYhAgvR4VciUeHyQQJdEa2X5yN4Rl14W3CUH5tteo=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3akzr+ZCb7CvDzREjTTT/yzUQ+H+SxD+siJ5v83mcM=
+			wC9g+UGdXMj12+Bm08YT/x7FV0to5fIygMEWQaH55Kw=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			66Q9lXHlrFz9+eLUd2XGDWtU9jYqHCGQXNkuoL7hQr8=
+			37u3vxTQf0hV6uXOQQM41d+aTvHnxtIoHba2Xo2EB5k=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XttAOoB2Q90ckwBe3auLE2nFmyu+w4KZnHlWH0FlKfE=
+			LV9gR4O2h2FJKgXtLQ/bIdqlIteidCtPNtVDd3fAOfU=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -292,14 +292,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XttAOoB2Q90ckwBe3auLE2nFmyu+w4KZnHlWH0FlKfE=
+			LV9gR4O2h2FJKgXtLQ/bIdqlIteidCtPNtVDd3fAOfU=
 			</data>
 		</dict>
 		<key>Modules/BiometricFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EONzy0UTE9XDJukHRFL/LTyJIsUEWmu9NwoUu9ws27Q=
+			rMKuNJov64YcM8zTkmI5FAAEMo5a1jYVmhywkbtCwFg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

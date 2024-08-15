@@ -13,7 +13,6 @@ import Photos
 import Swift
 import SwiftUI
 import UIKit
-import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -23,12 +22,51 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public protocol BioTokenServices : AnyObject {
+  func reloadData()
+}
+public protocol BioReleaseService : AnyObject {
+  func reloadReleaseData()
+}
+@_hasMissingDesignatedInitializers public class BiometricViewModel {
+  public var tokenResponce: [BiometricFramework.ValidateToken] {
+    get
+    set
+  }
+  public var nadraReleaseResponce: [BiometricFramework.NadraResponses] {
+    get
+    set
+  }
+  final public let manager: BiometricFramework.APIManager
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraViewPortPassportR : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+public struct NadraResponses : Swift.Decodable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case responseCode
+    case responseMessage
+    case responseProcessID
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CameraViewPortPassportInnerR : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
@@ -103,6 +141,7 @@ public protocol BiometricViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var latitude: Swift.String
   @_Concurrency.MainActor(unsafe) public var buttonColor: Swift.String
   @_Concurrency.MainActor(unsafe) public var buttonTextColor: Swift.String
+  @_Concurrency.MainActor(unsafe) weak public var bioDelegate: (any BiometricFramework.BiometricViewControllerDelegate)?
   @_Concurrency.MainActor(unsafe) public var result: BiometricFramework.Result?
   @_Concurrency.MainActor(unsafe) public var previousInferenceTimeMs: Swift.Double
   @_Concurrency.MainActor(unsafe) public var cameraFeedManager: BiometricFramework.CameraFeedManager {
@@ -129,6 +168,12 @@ extension BiometricFramework.BiometricVC : BiometricFramework.CameraFeedManagerD
   @_Concurrency.MainActor(unsafe) public func sessionInterruptionEnded()
   @_Concurrency.MainActor(unsafe) public func presentVideoConfigurationErrorAlert()
   @_Concurrency.MainActor(unsafe) public func presentCameraPermissionsDeniedAlert()
+}
+extension BiometricFramework.BiometricVC : BiometricFramework.BioTokenServices {
+  @_Concurrency.MainActor(unsafe) public func reloadData()
+}
+extension BiometricFramework.BiometricVC : BiometricFramework.BioReleaseService {
+  @_Concurrency.MainActor(unsafe) public func reloadReleaseData()
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PreviewViewController : BiometricFramework.BaseVC {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
@@ -169,6 +214,16 @@ extension BiometricFramework.CameraFeedManager : AVFoundation.AVCaptureVideoData
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public typealias Handler<T> = (BiometricFramework.Result) -> Swift.Void
+@_hasMissingDesignatedInitializers public class APIManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func tokentRequest<T>(bundleId: Swift.String) async throws -> T where T : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func nadraReleaseRequest<T>(file: UIKit.UIImage, processid: Swift.String, nic: Swift.String, issueDate: Swift.String, mobileNo: Swift.String, hand: Swift.String, area: Swift.String, imei: Swift.String, ip_address: Swift.String, Longitude: Swift.String, Latitude: Swift.String) async throws -> T where T : Swift.Decodable
+  #endif
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PreviewView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
     @objc get
@@ -180,7 +235,6 @@ extension BiometricFramework.CameraFeedManager : AVFoundation.AVCaptureVideoData
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class BaseVC : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -193,3 +247,29 @@ extension BiometricFramework.CameraFeedManager : AVFoundation.AVCaptureVideoData
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public struct ValidateToken : Swift.Decodable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case responseCode
+    case responseMessage
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BiometricFramework.NadraResponses.CodingKeys : Swift.Equatable {}
+extension BiometricFramework.NadraResponses.CodingKeys : Swift.Hashable {}
+extension BiometricFramework.NadraResponses.CodingKeys : Swift.RawRepresentable {}
+extension BiometricFramework.ValidateToken.CodingKeys : Swift.Equatable {}
+extension BiometricFramework.ValidateToken.CodingKeys : Swift.Hashable {}
+extension BiometricFramework.ValidateToken.CodingKeys : Swift.RawRepresentable {}

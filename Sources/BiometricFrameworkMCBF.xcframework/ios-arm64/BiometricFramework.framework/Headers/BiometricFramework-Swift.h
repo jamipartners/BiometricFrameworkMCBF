@@ -304,8 +304,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSNotification;
-@class UITraitCollection;
+@class UIWindow;
+@class UIApplication;
+
+SWIFT_CLASS("_TtC18BiometricFramework11AppDelegate")
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property (nonatomic, strong) UIWindow * _Nullable window;
+- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSString;
 @class NSBundle;
 @class NSCoder;
@@ -314,21 +322,8 @@ SWIFT_CLASS("_TtC18BiometricFramework6BaseVC")
 @interface BaseVC : UIViewController
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
-- (void)elementFocused:(NSNotification * _Nonnull)notification;
-- (void)shakeToUndoDidChange:(NSNotification * _Nonnull)notification;
-- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIWindow;
-@class UIApplication;
-
-SWIFT_CLASS("_TtC18BiometricFramework14BioAppDelegate")
-@interface BioAppDelegate : UIResponder <UIApplicationDelegate>
-@property (nonatomic, strong) UIWindow * _Nullable window;
-- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class PreviewView;
@@ -360,12 +355,15 @@ SWIFT_CLASS("_TtC18BiometricFramework11BiometricVC")
 @end
 
 
+
+
 @interface BiometricVC (SWIFT_EXTENSION(BiometricFramework))
 /// This method runs the live camera pixelBuffer through tensorFlow to get the result.
 - (void)runModelOnPixelBuffer:(CVPixelBufferRef _Nonnull)pixelBuffer;
 - (void)setDefaultFocusAndExposure;
 @end
 
+@class NSNotification;
 
 /// This class manages all camera related functionality
 SWIFT_CLASS("_TtC18BiometricFramework17CameraFeedManager")
@@ -467,30 +465,12 @@ SWIFT_CLASS("_TtC18BiometricFramework16ModelDataHandler")
 @end
 
 
-SWIFT_CLASS("_TtC18BiometricFramework13NadraResponse")
-@interface NadraResponse : NSObject <NSCoding>
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 /// This UIView draws overlay on a detected object.
 SWIFT_CLASS("_TtC18BiometricFramework11OverlayView")
 @interface OverlayView : UIView
 - (void)drawRect:(CGRect)rect;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18BiometricFramework8Pictures")
-@interface Pictures : NSObject <NSCoding>
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -546,36 +526,6 @@ SWIFT_CLASS("_TtC18BiometricFramework21PreviewViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-SWIFT_CLASS("_TtC18BiometricFramework12QualityScore")
-@interface QualityScore : NSObject <NSCoding>
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC18BiometricFramework12ResponseData")
-@interface ResponseData : NSObject <NSCoding>
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC18BiometricFramework14ServerResponse")
-@interface ServerResponse : NSObject <NSCoding>
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
 
 
 
