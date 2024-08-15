@@ -304,16 +304,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class UIWindow;
-@class UIApplication;
-
-SWIFT_CLASS("_TtC18BiometricFramework11AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (nonatomic, strong) UIWindow * _Nullable window;
-- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSString;
 @class NSBundle;
 @class NSCoder;
@@ -324,6 +314,16 @@ SWIFT_CLASS("_TtC18BiometricFramework6BaseVC")
 - (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIWindow;
+@class UIApplication;
+
+SWIFT_CLASS("_TtC18BiometricFramework14BioAppDelegate")
+@interface BioAppDelegate : UIResponder <UIApplicationDelegate>
+@property (nonatomic, strong) UIWindow * _Nullable window;
+- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class PreviewView;
