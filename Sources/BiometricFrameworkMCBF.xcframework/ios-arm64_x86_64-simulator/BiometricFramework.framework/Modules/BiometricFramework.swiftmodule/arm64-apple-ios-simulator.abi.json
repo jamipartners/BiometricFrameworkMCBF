@@ -5486,6 +5486,27 @@
           },
           {
             "kind": "Function",
+            "name": "printBundleIdentifier",
+            "printedName": "printBundleIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricFramework0A2VCC21printBundleIdentifieryyF",
+            "mangledName": "$s18BiometricFramework0A2VCC21printBundleIdentifieryyF",
+            "moduleName": "BiometricFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didReceiveMemoryWarning",
             "printedName": "didReceiveMemoryWarning()",
             "children": [
@@ -9681,14 +9702,14 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/BiometricFramework\/ObjectDetection\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 222,
       "length": 10,
       "value": "\"validate\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/BiometricFramework\/ObjectDetection\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 214,
+      "offset": 260,
       "length": 25,
       "value": "\"biometricVerification\/1\""
     },

@@ -151,6 +151,7 @@ public protocol BiometricViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var modelDataHandler: BiometricFramework.ModelDataHandler?
   @_Concurrency.MainActor(unsafe) public var isCapture: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func printBundleIdentifier()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
